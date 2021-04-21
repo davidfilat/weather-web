@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "dev": "vite",
+    "serve": "vite preview",
+    "build": "vite build"
   },
   "author": "David Filat",
   "license": "ISC",
   "dependencies": {
     "luxon": "^1.26.0",
-    "parcel-bundler": "^1.12.5"
+    "vite": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/luxon": "^1.26.4"
   }
 }
